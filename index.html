@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEWS and WEATHER</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <article class="weather-summary">
+
+        <div>
+            <img src="img/ABC.png" alt="Random Image" class="abc-img" />
+        </div>
+        <section class="weather-section">
+            <div class="page">
+                <h1>LATEST WEATHER</h1>
+                <div class="archive">
+                    <section id="stats">
+                        <div class="summary">
+
+
+                            <h2>Weather summary<h2>
+                                    <h3 id="five-city"></h3>
+                                    <p>Currently: <span id="current-desc"></span></p>
+                                    <p>
+                                        Tempature:
+                                        <span id="current-temp"></span> °F
+                                    </p>
+                                    <p>Wind Chill: <span id="current-windChill"></span> °F</p>
+                                    <p>Humidity: <span id="current-humid"></span>%</p>
+                                    <p>Wind Speed: <span id="current-windSpeed"></span> mph</p>
+                                    <a href="#">FORECAST</a>
+                        </div>
+                    </section>
+
+    </article>
+    <div class="news">
+        <div class="article">
+            <div class="header">
+                <h2 class="title"></h2>
+
+            </div>
+            <div class="body">
+                <img src="" alt="" class="article-img">
+            </div>
+            <div class="footer">
+                <p class="description"></p>
+                <a href="" class="article-link"></a>
+            </div>
+        </div>
+        <div class="article">
+            <div class="header">
+                <h2 class="title"></h2>
+
+            </div>
+            <div class="body">
+                <img src="" alt="" class="article-img">
+            </div>
+            <div class="footer">
+                <p class="description"></p>
+                <a href="" class="article-link"></a>
+            </div>
+        </div>
+        <div class="article">
+            <div class="header">
+                <h2 class="title"></h2>
+
+            </div>
+            <div class="body">
+                <img src="" alt="" class="article-img">
+            </div>
+            <div class="footer">
+                <p class="description"></p>
+                <a href="" class="article-link"></a>
+            </div>
+        </div>
+        <div class="article">
+            <div class="header">
+                <h2 class="title"></h2>
+
+            </div>
+            <div class="body">
+                <img src="" alt="" class="article-img">
+            </div>
+            <div class="footer">
+                <p class="description"></p>
+                <a href="" class="article-link"></a>
+            </div>
+        </div>
+        <div class="article">
+            <div class="header">
+                <h2 class="title"></h2>
+
+            </div>
+            <div class="body">
+                <img src="" alt="" class="article-img">
+            </div>
+            <div class="footer">
+                <p class="description"></p>
+                <a href="" class="article-link"></a>
+            </div>
+        </div>
+    </div>
+    <!-- 5 day forecast -->
+    <div class="article-five-day">
+        <article id="forecastContainer">
+            <div class="umbrella">
+                <h2 id="forecastTitle">5 Day Forecast</h2>
+                <img src="img/Umbrella.jpg" alt="" class="weatherIcon">
+                <h3 id="city"></h3>
+            </div>
+            <div class="flex">
+                <div class="flex-col">
+                    <span id="dayTitle1" class="col-head"></span>
+                    <img id="weatherIcon1" src="img/Sunny.jpg" class="weatherIcon" />
+                    <br>
+                    <span class="temp-data">
+                        <span id="data1">50</span>
+                        <span>°F</span>
+                    </span>
+                </div>
+                <div class="flex-col">
+                    <span id="dayTitle2" class="col-head"></span>
+                    <img id="weatherIcon2" src="img/Sunny.jpg" class="weatherIcon" />
+                    <div class="temp-data">
+                        <span id="data2">49</span>
+                        <span>°F</span>
+                    </div>
+                </div>
+                <div class="flex-col">
+                    <span id="dayTitle3" class="col-head"></span>
+                    <img id="weatherIcon3" src="img/snowy.jpg" class="weatherIcon" />
+                    <div class="temp-data">
+                        <span id="data3">26</span>
+                        <span>°F</span>
+                    </div>
+                </div>
+                <div class="flex-col">
+                    <span id="dayTitle4" class="col-head"></span>
+                    <img id="weatherIcon4" src="img/thunderStorms.jpg" class="weatherIcon" />
+                    <div class="temp-data">
+                        <span id="data4">39</span>
+                        <span>°F</span>
+                    </div>
+                </div>
+                <div class="flex-col">
+                    <span id="dayTitle5" class="col-head"></span>
+                    <img id="weatherIcon5" src="img/partlyCloudy.jpg" class="weatherIcon" />
+                    <div class="temp-data">
+                        <span id="data5">36</span>
+                        <span>°F</span>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+    </div>
+    </div>
+    </section>
+    <hr />
+
+    <script src="script.js"></script>
+</body>
+
+</html>
